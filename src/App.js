@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+// import { faRegular } from "styled-icons";
+import "./App.css";
+
+// const MySvg = styled(faRegular.HandRock)``;
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <MySvg /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
